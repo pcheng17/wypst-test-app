@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  wypst:
-    specifier: ^0.0.4
-    version: 0.0.4
-
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^3.0.0
@@ -25,6 +20,9 @@ devDependencies:
   vite:
     specifier: ^5.0.3
     version: 5.2.4
+  wypst:
+    specifier: ^0.0.4
+    version: 0.0.4
 
 packages:
 
@@ -793,4 +791,4 @@ packages:
 
   /wypst@0.0.4:
     resolution: {integrity: sha512-x5A/PduUgf46AECiBihtmPgnkWy+hqpDeyPxDR42ClV/+kLxTKW1VLs9++WHi3GC7BYGUgixarTnXqNjqIulDw==}
-    dev: false
+    dev: true
